@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bilal Hassan | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+      color: #222;
+    }
+
+    .header h3 {
+      font-weight: normal;
+      color: #444;
+    }
+
+    .profile-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .content {
+      width: 65%;
+    }
+
+    .content p {
+      line-height: 1.6;
+    }
+
+    .skills, .contact {
+      background: #fff;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+    }
+
+    .skills h2, .contact h2 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills ul li {
+      padding: 5px 0;
+      font-weight: 500;
+    }
+
+    .profile-pic img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #74ebd5;
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
+      transition: transform 0.3s ease;
+    }
+
+    .profile-pic img:hover {
+      transform: scale(1.05);
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #74ebd5;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #5bb6a8;
+      color: #fff;
+    }
+
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #007acc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Bilal Hassan</h1>
+      <h3>Frontend Developer | Student at UMT & Nexskill</h3>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="profile-section">
+      <div class="content">
+        <p>
+          Hello! I am <b>Bilal Hassan</b>, a passionate developer who loves creating 
+          user-friendly and clean designs. I am learning modern 
+          technologies like <abbr title="HyperText Markup Language">HTML</abbr>, 
+          <abbr title="Cascading Style Sheets">CSS</abbr> and 
+          <abbr title="JavaScript">JS</abbr>. 
+        </p>
+        <blockquote>
+          <q>When you love what you do every day feels like an opportunity not an obligation.</q>
+        </blockquote>
+
+        <!-- Button with JavaScript -->
+        <button onclick="greet()">Say Hello 👋</button>
+      </div>
+
+      <div class="profile-pic">
+        <img src="IMAGE.jpg" alt="Bilal Hassan">
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>C++ Programming</li>
+        <li>Basic Computer Skills</li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: bilalhassan8534@gmail.com</p>
+      <p>Location: Lahore, Pakistan</p>
+
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="https://github.com/bilal-hassan-developer" target="_blank">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/bilal-hassan-9b4a95368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function greet() {
+      alert("👋 Hi, thanks for visiting Bilal Hassan's Portfolio!");
+    }
+  </script>
+</body>
+</html>
